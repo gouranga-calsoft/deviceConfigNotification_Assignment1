@@ -22,24 +22,27 @@ Spring Boot REST API that triggers JSON notifications when a device configuratio
 
 ---
 ## 📂 Project Structure
+
+```text
 TriggerNotificationApi/
- ├── src/main/java/com/calsoft/api/
- │    ├── controller/
- │    │     └── DeviceNotificationController.java
- │    ├── service/
- │    │     └── DeviceNotificationService.java
- │    ├── repository/
- │    │     └── DeviceRepository.java
- │    ├── model/
- │    │     └── Device.java
- │    └── TriggerNotificationApiApplication.java
- │
- ├── src/main/resources/
- │    ├── application.properties
- │    └── data.sql
- │
- ├── pom.xml
- └── README.md
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/calsoft/api/
+│   │   │       ├── controller/
+│   │   │       │   └── DeviceNotificationController.java
+│   │   │       ├── service/
+│   │   │       │   └── DeviceNotificationService.java
+│   │   │       ├── repository/
+│   │   │       │   └── DeviceRepository.java
+│   │   │       ├── model/
+│   │   │       │   └── Device.java
+│   │   │       └── TriggerNotificationApiApplication.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── data.sql
+├── pom.xml
+└── README.md
 
 ---
 
