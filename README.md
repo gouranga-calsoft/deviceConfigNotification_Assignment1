@@ -43,7 +43,7 @@ TriggerNotificationApi/
 │   │       └── data.sql
 ├── pom.xml
 └── README.md
-
+```
 ---
 
 ## ▶️ Run
